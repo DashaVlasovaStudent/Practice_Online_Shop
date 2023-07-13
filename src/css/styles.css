@@ -1,0 +1,218 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*, *:before, *:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus, :active {
+   outline: none;
+}
+
+a:focus, a:active {
+   outline: none;
+}
+
+nav, footer, header, aside {
+   display: block;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a, a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+a {
+   color: inherit;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------- */
+@font-face {
+	font-family: 'Raleway-Italic-VariableFont_wght';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Crimson Text'),
+		url('/src/fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf'),
+}
+
+body{
+   font-family: 'Raleway-Italic-VariableFont_wght';
+   background-color: #1E1E1E;
+}
+
+.balance-bar{
+   background-color: #368395;
+   float: left;
+   color: #ECFFFF;
+   padding: 10px;
+   margin: 25px;
+   border-radius: 5px;
+   font-size: 18px;
+}
+
+#send-button{
+   background-color: #1E1E1E;
+   color: #cfe1e1;
+   font-size: 16px;
+   margin: 15px;
+   padding: 5px;
+   width: 120px;
+   border-radius: 5px;
+}
+
+#reset-button{
+   background-color: #368395;
+   color: rgb(208, 208, 208);
+   margin-top: 10px;
+   margin-left: 35px;
+   margin-bottom: 1px;
+}
+
+#inf{
+   border: 1px solid #D6D4D4;
+   width: 170px;
+   height: 55px;
+   padding: 3px;
+   font-size: 12px;
+   text-align: center;
+
+}
+
+.bonus-bar{
+   position: absolute;
+   width: 1160px;
+   background-color: #368395;
+   color: #ECFFFF;
+   padding: 10px;
+   margin: 25px;
+   margin-left:300px;
+   border-radius: 5px;
+   font-size: 18px;
+}
+
+#bonus{
+   font-size: 18px;
+   padding: 5px;
+}
+
+#souvenirs{
+   font-size: 30px;
+   padding: 5px;
+   padding-left: 450px;
+   padding-bottom: 1px;
+}
+
+#filtr{
+   float: right;
+   font-size: 18px;
+}
+
+#filtr-list-button{
+   background-color: #368395;
+}
+
+#filtr-list{
+   position: absolute;
+   right: 20px;
+   top: 120px;
+   background-color: #1E1E1E;
+   width: 100px;
+   height: 70px;
+}
+
+.filtr-buttons{
+   border-radius: 5px;
+   background-color: #1E1E1E;
+   color: #ECFFFF;
+}
+
+.all-products{
+   display: grid;
+   grid-template-columns: 304px 304px 304px 304px;
+   padding-top: 150px;
+   padding-left: 50px;
+   
+}
+
+.product{
+   display: flex;
+   flex-direction: column ;
+   justify-content:space-between;
+   border-radius: 10px;
+   background-color: #368395;
+   padding: 10px;
+   margin: 10px;
+   width: 250px;
+   height: 350px;
+   color: #ECFFFF;
+   font-size: 18px;
+   text-align: center;
+}
+
+.button-price{
+   display: flex;
+   flex-direction: row ;
+   justify-content:space-between;
+}
+
+#teleghka{
+   background-color: #368395;
+   width: 40px;
+   height: 20px;
+}
+
+.images{
+   width: 200px;
+   height: 200px;
+   padding-left: 15px;
+}
+
