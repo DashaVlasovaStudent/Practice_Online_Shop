@@ -1,0 +1,235 @@
+body {
+   background-color: #F5F6F8;
+}
+
+#balance {
+   position: absolute;
+   left: 20px;
+   top: 20px;
+
+   background-color: #F2F2F2;
+   width: 215px;
+   height: 359px;
+   margin-left: 20px;
+
+   border:
+      2px solid #D6D4D4;
+}
+
+#balance-title {
+   color: #1971B3;
+   font-size: 17px;
+   font-weight: 600;
+   margin: 8px;
+}
+
+#my-coins {
+   position: absolute;
+   top: 8px;
+   right: 24px;
+
+   color: #096DAF;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+#coin-picture{
+   position: absolute;
+   top: 8px;
+   right: 16px;
+}
+
+#coin-picture2{
+   position: absolute;
+   top: 8px;
+   right: 5px;
+}
+
+#coin-picture3{
+   position: absolute;
+   top: 4px;
+   right: 5px;
+}
+
+#send-button{
+   position: absolute;
+   top: 38px;
+   left: 8px;
+   padding-right: 15px;
+
+   width: 100px;
+   height: 25px;
+
+   color: #fff;
+
+   background-color: #0271BA;
+
+   border: 
+   1px
+   solid
+   #0271BA;
+   border-radius: 5px;
+}
+#send-button:hover{
+   transform: scale(1.01);
+}
+
+
+#window-in-balance{
+   background-color: #fff;
+   width: 212px;
+   height: 281px;
+
+   position: absolute;
+   top: 74px;
+}
+
+#line-choice{
+   margin-left: 10px;
+   margin-top: 10px;
+	border-top: 1px solid #dadada;
+
+   width: 195px;
+}
+
+#mychoice-text{
+   color: #403F40;
+   font-size: 16px;
+   font-weight: 600;
+   margin-left: 65px;
+   margin-top: 8px;
+}
+
+#text-product{
+   color: #84a8bc;
+   margin-left:10px;
+   margin-top: 5px;
+}
+
+#amount-price{
+   position: absolute;
+   top: 60px;
+
+   color: #C1C2BE;
+   margin-left:10px;
+}
+
+#itog{
+   position: absolute;
+   top: 90px;
+
+   color: #C1C2BE;
+   margin-left:10px;
+}
+
+#confirm-button{
+   background-color: #0097D8;
+   width: 195px;
+   height: 50px;
+   margin-left: 8px;
+   margin-top: 50px;
+
+   color: #fff;
+   text-align: center;
+}
+
+#confirm-button:hover{
+   transform: scale(1.01);
+}
+
+#block-info{
+   color: #A4A29F;
+   font-size: 12px;
+   text-align: center;
+
+   border: 
+   1px
+   solid
+   #A4A29F;
+   
+   padding: 5px;
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-top: 15px;
+   
+}
+
+#reset-choice-button{
+   margin-left: 55px;
+   margin-top: 15px;
+   color: #A4A29F;
+   background-color: #fff;
+}
+
+
+
+
+
+
+
+#bonus-bar {
+   position: absolute;
+   left: 258px;
+
+   background-color: #fff;
+   width: 1159px;
+   height: 156px;
+   margin: 20px;
+   border:
+      2px solid #D6D4D4;
+
+}
+
+#bb-text {
+   color: #ABD6EF;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+#bb-title {
+   color: #106EAC;
+   font-size: 28px;
+   font-weight: 700;
+   margin: 20px;
+}
+
+#filtr-icon{
+   position: absolute;
+   left: -30px;
+   top: 1px;
+}
+
+#sort {
+   position: relative;
+   left: 1000px;
+   top: -20px;
+   padding-top: 4px;
+   padding-left: 10px;
+
+   color: #9A9B98;
+   font-size: 14px;
+
+   width: 130px;
+   height: 23px;
+
+   border:
+      1px solid #D6D4D4;
+
+}
+
+#spisok-button{
+   position: absolute;
+   left: 100px;
+   top: 1px;
+}
+
+#line-title{
+   margin-left: 20px;
+   margin-top: 10px;
+	border-top: 1px solid #dadada;
+
+   width: 674px;
+}
+
+
